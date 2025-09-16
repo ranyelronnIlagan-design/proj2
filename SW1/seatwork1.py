@@ -5,4 +5,4 @@ def convert_dollar(dollars):
 dollar_amount = [59, 200, 500]
 for amount in dollar_amount:
     usd, php, jpy = (convert_dollar(amount))
-    print(f"${usd} = Php {float(php)}, JPY {float(jpy)}")
+    print(f"${usd} = Php {php}, JPY {jpy}")
